@@ -27,6 +27,10 @@ body.pg-Contact .contactrow a.m-flip.js-flip {
     color: var(--black);
 }
 
+form .mT-50 h3 {
+    font-size: 1.25vw;
+    margin-bottom: 1rem;
+}
 form input[type="radio"] {
     width: 20px;
     height: 20px;
@@ -50,7 +54,8 @@ form textarea {
     width: 100%;
     max-width: 40rem;
     min-height: 6rem;
-    padding: 0.5rem;    
+    padding: 0.5rem; 
+    font-size: 1vw;   
 }
 
 @media (max-width: 868px) {
