@@ -30,8 +30,23 @@ body.pg-Contact .contactrow a.m-flip.js-flip {
 form input[type="radio"] {
     width: 20px;
     height: 20px;
-    border: 1px solid var(--grey2);
-    
+    border: 1px solid var(--grey2);    
+}
+form .formCheckbox {    
+    display: flex;    
+}
+form .mT-50 {
+    margin-top: 1.6vw;
+}
+form .formGroup label, form .formCheckbox p {
+    margin-left: 1rem;
+}
+
+form textarea {
+    width: 100%;
+    max-width: 40rem;
+    min-height: 6rem;
+    padding: 0.5rem;    
 }
 
 @media (max-width: 868px) {
