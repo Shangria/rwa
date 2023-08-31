@@ -38,8 +38,12 @@ form .formCheckbox {
 form .mT-50 {
     margin-top: 1.6vw;
 }
-form .formGroup label, form .formCheckbox p {
+form .formGroup label{
     margin-left: 1rem;
+}
+
+form .formCheckbox p {
+    margin-left: 1.5rem;
 }
 
 form textarea {
