@@ -27,9 +27,14 @@
     margin-left: 1vw;
 }
 
-.exclusivity-cards-cnt{
-padding-top: 10.41vw;
+.exclusivity-cards-cnt {
+    padding-top: 10.41vw;
 }
+
+.exclusivity-cards-cnt.cards-space {
+    padding-top: 2.6vw;
+}
+
 
 .exclusivity-img{
     display: flex;
@@ -37,10 +42,22 @@ padding-top: 10.41vw;
     gap: 14vw;
 }
 
-#ex-card{
+#ex-card {
     margin-top: 20vw;
+}
+
+.exclusivity-cards-cnt.cards-space #ex-card{
+
+    margin-top: 2.6vw;
+
 }
 
 #ex-card2{
     margin-top: -5vw;
+}
+
+.exclusivity-cards-cnt.cards-space #ex-card2{
+
+    margin-top: 1vw;
+
 }

@@ -47,6 +47,7 @@
 .formInput {
     display: flex;
     gap: 4vw;
+    padding: 10px 0;
 }
 
 .formInput input, select {
