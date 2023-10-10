@@ -36,8 +36,6 @@ function nav() {
 
 }
 
-
-
 function locoInitializefooter() {
 
   //== Smooth scroll
@@ -83,7 +81,6 @@ function locoInitializefooter() {
     },
 
     getBoundingClientRect() {
-
       return {
 
         top: 0,
@@ -108,11 +105,11 @@ function locoInitializefooter() {
 
 
 
-  ScrollTrigger.defaults({ scroller: "#main" });
+ /* ScrollTrigger.defaults({ scroller: "#main" });*/
 
 
 
-  gsap.set(".footer-container", { yPercent: -50 });
+  gsap.set(".footer-container", { yPercent: -10 });
 
 
 
@@ -223,7 +220,12 @@ $(function () {
 
 });
 
-locoInitializefooter();
+
+$(function () {
+
+  locoInitializefooter();
+});
+
 
 
 

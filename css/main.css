@@ -1506,6 +1506,12 @@ a {
 
     }
 
+    .column-2.stackable-items .wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
 
 
     .column-2 .project .wrapper .numbering .num-wrapper {
