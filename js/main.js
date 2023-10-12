@@ -103,9 +103,12 @@ function locoInitializefooter() {
 
   });
 
+  if (window.innerWidth > 1024) {
+    ScrollTrigger.defaults({ scroller: "#main" });
+  }
 
 
- /* ScrollTrigger.defaults({ scroller: "#main" });*/
+/*  ScrollTrigger.defaults({ scroller: "#main" });*/
 
 
 
