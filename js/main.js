@@ -108,10 +108,6 @@ function locoInitializefooter() {
   }
 
 
-/*  ScrollTrigger.defaults({ scroller: "#main" });*/
-
-
-
   gsap.set(".footer-container", { yPercent: -10 });
 
 
