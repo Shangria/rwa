@@ -262,6 +262,9 @@ Hamburger menu
 
 }
 
+.nav:nth-of-type(1){
+    margin-bottom: 1em;
+}
 
 
 .nav a {
@@ -299,6 +302,12 @@ Hamburger menu
 .nav-container .phone{
 
     margin: 1em 0;
+
+}
+
+.nav-container .phone a{
+
+    color: var(--black);
 
 }
 
