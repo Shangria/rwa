@@ -6,6 +6,14 @@
 
 }
 
+.swiper-slide-size .swiper-slide {
+    @media (min-width: 867px) {
+        flex-shrink: 1;
+        padding-right: 10px;
+    }
+}
+
+
 
 
 .swiper-slide .feat-img img {

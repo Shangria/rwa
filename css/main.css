@@ -2097,6 +2097,18 @@ a {
     top: 0;
     left: -25px;
 }
+@media screen and (min-width: 867px) {
+    .swiper-slide-size .feat-text:after {
+        content: none;
+    }
+    .swiper-slide-size .swiper-wrapper{
+        transform: translate3d(0px, 0px, 0px) !important;
+    }
+
+    .swiper-slide-size .swiper-slide{
+        margin: 0 !important;
+    }
+}
 .mySwiper .swiper-wrapper {
     height: auto;
 
@@ -2147,8 +2159,7 @@ a {
 .person-info-box h3 {
     text-align: center;
     font-size: 14px;
-    color: #fff;
-    text-shadow: 1px 2px 3px black;
+    color: black;
     padding-top: 10px;
 
 
